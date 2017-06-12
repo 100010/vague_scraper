@@ -21,6 +21,8 @@ module VagueScraper
         Nokogiri::HTML(session.html).tap do
           session.driver.quit
         end
+
+        binding.pry
       end
     end
   end
