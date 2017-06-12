@@ -22,7 +22,7 @@ module VagueScraper
           session.driver.quit
         end
 
-        binding.pry
+
       end
     end
   end
