@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{ Write a short summary, because Rubygems requires one.}
   spec.description   = %q{ Write a longer description or delete this line.}
-  spec.homepage      = "https://github.com/100010"
+  spec.homepage      = "https://github.com/100010/vague_scraper"
   spec.license       = "MIT"
 
 
