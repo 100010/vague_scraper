@@ -3,6 +3,9 @@ require 'parallel'
 
 module VagueScraper
   class Scraper
+
+    attr_accessor :driver
+
     class << self
       def execute(args)
         if !args[:urls].nil?
